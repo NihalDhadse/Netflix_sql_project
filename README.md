@@ -12,6 +12,7 @@ User Engagement Insights – Analyze audience preferences and viewing patterns t
 Visualization & Reporting – Create interactive Power BI dashboards to present insights effectively.
 
 ## Dataset
-The data for this project is sourced from Kaggle dataset
+The data for this project is sourced from Kaggle dataset.
+
 Dataset link:https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
 
