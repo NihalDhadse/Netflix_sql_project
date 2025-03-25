@@ -159,5 +159,5 @@ WHERE
 	 group by 1
 ```
 
-##Conclusion
+## Conclusion
 This project successfully analyzed Netflix data using SQL, uncovering key trends in content distribution, genres, and user engagement. The insights were visualized through Power BI dashboards, enabling better understanding of content performance. These findings can help optimize Netflix’s content strategy and enhance user experience.
