@@ -4,15 +4,32 @@
 
 ## Objective
 Data Extraction & Cleaning – Use SQL to clean, filter, and preprocess Netflix data for accurate analysis.
-
 Content Analysis – Identify trends in genres, release years, and regional distribution of Netflix content.
-
 User Engagement Insights – Analyze audience preferences and viewing patterns to understand content popularity.
-
 Visualization & Reporting – Create interactive Power BI dashboards to present insights effectively.
 
 ## Dataset
 The data for this project is sourced from Kaggle dataset.
-
 Dataset link:https://www.kaggle.com/datasets/shivamb/netflix-shows?resource=download
+
+## Schemas
+```sql
+CREATE TABLE netflix
+(
+show_id  VARCHAR(6),
+type	VARCHAR(10),
+title	VARCHAR(150),
+director	VARCHAR(208),
+casts	VARCHAR(1000),
+country	VARCHAR(150),
+date_added	VARCHAR(50),
+release_year	INT,
+rating VARCHAR(10),
+duration	VARCHAR(15),
+listed_in	VARCHAR(100),
+description VARCHAR(250)
+
+)
+select * from netflix;
+```
 
